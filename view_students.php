@@ -14,12 +14,8 @@ if ($link -> connect_error) {
     die('Could not connect: ' . $link->connect_error);
 }
 else{
-	// echo "Connected sucessfully";
+	// echo "Connected sucessfully<br>";
 }
-
-// //select database
-// $link = mysqli_select_db($link, "University");
-
 
 $sql = "SELECT SId, Fname, Mname,Lname FROM University.Student
 WHERE SId=".$_POST['id'];

@@ -1,5 +1,4 @@
 
-
 <html>
 
 <form action ="view_students.php" method="post">
@@ -12,8 +11,8 @@ id: <input type = "text" name ="id">
 
 <form action="insert_student.php" method ="post">
 <p> Insert Students: </p>
-id: <input type = "text" name ="id"> <br>
-Frist Name: <input type = "text" name ="First"> <br>
+<!-- id: <input type = "text" name ="id"> <br>
+ -->Frist Name: <input type = "text" name ="First"> <br>
 Middle Name: <input type = "text" name ="Middle"> <br>
 Last Name: <input type = "text" name ="Last"> <br>
 DOB: <input type = "text" name ="DOB"><br>
